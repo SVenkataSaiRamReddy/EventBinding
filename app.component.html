@@ -1,0 +1,27 @@
+<h1>Input Decorator</h1>
+<app-eventbinding [name]="title"></app-eventbinding>
+
+<h1>Output Decorator</h1>
+<p>Current value of counter is <span [class]="classToSet">{{counter}}</span></p>
+<app-eventbinding (counterchange)="oncounterChange($event)"></app-eventbinding>
+<!-- 
+<h1>Property Binding</h1>
+<app-property-binding></app-property-binding> 
+
+<h1>Two Way Data Binding</h1>
+<p>Current value of counter is <span [class]="classToSet">{{counter}}</span></p>
+<app-twowaybinding [(counter)]="counter"></app-twowaybinding>
+
+<hr>
+
+<input type="text" [(ngModel)]="title">
+{{title}} 
+
+<h1>Attribute Binding</h1>
+<app-attributebinding></app-attributebinding>
+
+<h1>Class Binding</h1>
+<app-classbinding></app-classbinding> -->
+
+<!-- <h1>Style Binding</h1>
+<app-stylebinding></app-stylebinding> -->
